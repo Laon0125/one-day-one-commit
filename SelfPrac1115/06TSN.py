@@ -12,10 +12,10 @@ while True :
     # n 이 10보다 작은경우의 로직
     if n < 10 :
         if n % 10 == 3 or n % 10 == 6 or n % 10 == 9 :
-            time.sleep(0.5)
+            time.sleep(0.3)
             print("짝")
             continue
-        time.sleep(0.5)
+        time.sleep(0.3)
         print(n)
     
     # n 이 10 보다 큰경우 두 자리를 다 새야함
@@ -38,16 +38,16 @@ while True :
         # 둘중 하나라도 3 6 9 인경우
         if digit10 == True and digit1 == True :
             print("짝 짝")
-            time.sleep(0.5)
+            time.sleep(0.3)
             continue
 
         if digit10 == True or digit1 == True :
-            time.sleep(0.5)
+            time.sleep(0.3)
             print('짝')
             continue
         
         else  :
-            time.sleep(0.5)
+            time.sleep(0.3)
             print(n)
 
 

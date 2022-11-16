@@ -7,7 +7,7 @@ n = 0
 face_Count = 0
 tail_Count = 0
 
-while n < 1000000 :
+while n < 100 :
     coin = random.randint(0,1)
     n = n + 1
     if coin == face :
