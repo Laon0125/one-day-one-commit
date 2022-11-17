@@ -49,25 +49,36 @@ print ("당신의 선택한 번호는", lotto_Player_List)
 same_Number_Set = set()
 # 이 세트에 교집합을 넣는다
 same_Number_Set = lotto_Player_Set.intersection(lotto_Number_Set)
-# 겹친 숫자들을 보여준다
-print('당신이 맞춘 숫자는 ',same_Number_Set,' 입니다.')
+# 세트가 정렬이 안되니 세로운 list 생성
+same_Number_List = list()
+# 리스트에 세트를 대입
+same_Number_List = list(same_Number_Set)
+# 리스트를 정렬
+same_Number_List.sort()
+
 # 교집합이 들어간 세트의 길이를 담을 변수 선언
 size_of_set = 0
-#set의 크기를 구한다 len()사용 그 후 위 변수에 대입
-size_of_set = len(same_Number_Set)
-# 등수판별 다 같으면 1등 하나다르면 3등 두개다르면 4등... 
-while True :
-    if size_of_set > 5 :
-        print("1등이십니다!!")
-        break
-    elif size_of_set > 4 :
-        print("아쉽게도 3등이십니다!!")
-        break
-    elif size_of_set > 3 :
-        print("4등 할빠엔 안하고 말지...")
-        break
-    else :
-        print("ㅋㅋㅋ 탕진잼")
-        break
+
+if size_of_set != 0 :
+    #set의 크기를 구한다 len()사용 그 후 위 변수에 대입
+    # 겹친 숫자들을 보여준다
+    print('당신이 맞춘 숫자는 ',same_Number_List,' 입니다.')
+    size_of_set = len(same_Number_Set)
+    # 등수판별 다 같으면 1등 하나다르면 3등 두개다르면 4등... 
+    while True :
+        if size_of_set > 5 :
+            print("1등이십니다!!")
+            break
+        elif size_of_set > 4 :
+            print("아쉽게도 3등이십니다!!")
+            break
+        elif size_of_set > 3 :
+            print("4등 할빠엔 안하고 말지...")
+            break
+        else :
+            print("ㅋㅋㅋ 탕진잼")
+            break
+else : 
+    print("어케 하나도 못맞추냐...")
 
 
