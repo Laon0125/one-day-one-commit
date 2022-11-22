@@ -15,5 +15,3 @@ def solution(num, total):
         
         
     return answer
-
-print(solution(3,12))
