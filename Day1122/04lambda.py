@@ -1,20 +1,18 @@
-# 124p 람다식 키워드 + if 제어문
-def myCompare(x,y) :
-    if x > y :
+#124page 람다식lambda키워드 + if제어문
+def myadd(x,y):
+    if x>y:
         return x
-    else :
+    else:
         return y
 
 print('일반함수 적용')
-first = myCompare(8,7)
+first = myadd(8,47)
 print(first)
-print (myCompare(8,7))
-print ()
+print( myadd(8,47) )
+print()
 
 print('람다함수 적용')
-last = (lambda a,b : a if a > b  else b) (8,7)
-print (last)
-print ((lambda a,b : a if a > b else b) (8,7))
-
-
+last = (lambda a,b :a if a>b else b) (8,47)
+print(last)
+print( (lambda a,b :a if a>b else b) (8,47))
 

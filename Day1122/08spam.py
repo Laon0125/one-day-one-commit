@@ -1,14 +1,14 @@
-#92 페이지 참고
+#08spam.py  
 
-massege = [ 'spam', 'ham','spam','spam','ham']
+#92페이지 리스트 컴프리헨션 축약식
+message =  [  'spam', 'ham', 'spam', 'spam', 'ham' ]
+#ham데이터추출 
+for k  in message:
+    if k=='ham':
+        print(k, end='  ')
 
-#ham 데이터만 추출
-
-for i in massege :
-    if i == "ham" :
-        print("ham")
-
-data = [i for i in massege if i == 'ham']
+print()
+data = [ i for i in message if i=='ham']
 print(data)
 
-# 람다식 클래스안에서 함수(self) 리스트 컴프리헨션 복습하기
+#람다식, 클래스안에서 함수(self)
