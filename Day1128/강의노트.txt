@@ -1,0 +1,19 @@
+애플리케이션 배포
+    ㄴ 웹브라우저/앱
+    ㄴ 관리하는 서버(자체서버,Google Cloud, aws, azure, ibm, NCloud, Kakao)
+    
+자바 스크립트
+
+my = function(x,y)
+<script>
+    my = function(x,y)
+    function myCal(x,y)
+
+in python
+total = myCal(5,2)
+print (total)
+print (myCal(5,2))
+
+in numpy 
+
+a = np.fromfunction(myCal,(5,2),dtype=int)

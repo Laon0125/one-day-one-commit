@@ -12,18 +12,27 @@
 출력
 첫째 줄에 가장 싼 세트 메뉴의 가격을 출력한다.
 '''
+list_Burger = list()
+list_drink = list()
 x = int(input())
 y = int(input())
 z = int(input())
 a = int(input())
 b = int(input())
 
-list_Burger = [x,y,z]
+list_Burger.append(x)
+list_Burger.append(y)
+list_Burger.append(z)
+list_drink.append(a)
+list_drink.append(b)
+
 slist_Burger = list_Burger.sort()
+cheap_burger = 0
 cheap_burger = slist_Burger[0] 
 
 list_drink = [a,b]
 slist_drink = list_drink.sort()
+cheap_drink = 0
 cheap_drink = slist_drink[0]
 
 cheap_menu = cheap_burger + cheap_drink - 50

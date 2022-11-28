@@ -38,6 +38,7 @@ def variance(num_list) :
         counter += 1
     var_Num = sqr_Sum/(counter)
     return var_Num
+
  # 4번쨰 표준편차 np.std()       
 def standard_dev (x) :
     y = x**(0.5)
@@ -49,4 +50,3 @@ z = deviation(a)
 print (variance(z))
 x = variance(z)
 print ( standard_dev(x))
-
