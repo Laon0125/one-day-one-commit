@@ -6,10 +6,7 @@ mydict['kakao'] = 'www.kakao.com'
 mydict['python'] = 'www.python.org'
 
 #for반복문  enumerate(딕션이름)
-cnt = 0 
-for k in mydict:
-    print(cnt, ' ',k, ':',  mydict[k])
-    cnt = cnt + 1
+
 
 
 

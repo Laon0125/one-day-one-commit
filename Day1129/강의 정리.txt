@@ -1,0 +1,7 @@
+정리 폴더나 파일을 만들고 모르는것이 있으면 정리노트를 먼저 본 후 없으면 구글에 검색후 추가
+
+Tool
+    pycharm
+    jupyter notebook
+    colab
+    

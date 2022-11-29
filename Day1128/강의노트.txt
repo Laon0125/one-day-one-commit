@@ -1,5 +1,6 @@
 애플리케이션 배포
-    ㄴ 웹브라우저/앱
+    ㄴ 웹브라우저 ( python-dJango, java-sjp/spring, c#-.net )
+    ㄴ 앱(android studio, swift, flutter, react native)
     ㄴ 관리하는 서버(자체서버,Google Cloud, aws, azure, ibm, NCloud, Kakao)
     
 자바 스크립트

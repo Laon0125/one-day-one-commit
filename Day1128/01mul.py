@@ -18,4 +18,4 @@ dotA = np.dot(a,a)
     [4,9]
     ]
     '''
-print(a*a)
+print(result)
