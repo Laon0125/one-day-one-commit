@@ -14,6 +14,11 @@ def main():
     lower_data = 0
 
     ####### 구현 시작 ################
+    for i in input_data :
+        if i.isupper() :
+            upper_data += 1 
+        elif i.islower() :
+            lower_data += 1 
 
     ########구현 끝 #######################
 

@@ -4,4 +4,3 @@ Tool
     pycharm
     jupyter notebook
     colab
-    

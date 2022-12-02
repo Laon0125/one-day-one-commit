@@ -9,7 +9,13 @@ def main():
     '''
     result = None
     ####### 구현 시작 ################
-
+    for i in range (2000,3201) :
+      if i % 7 == 0 and i % 5 !=0 :
+        if result == None :
+          result = ""       
+          result = str(result) + str(i)
+        else: 
+          result = str(result) + "," + str(i)
     ########구현 끝 #######################
     print("-------------------------------------------------------------------------------")
     print(result)
