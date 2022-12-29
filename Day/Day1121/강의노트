@@ -1,0 +1,70 @@
+오늘 : 함수 파일처리 문자열
+
+juso = '서울 서초구 남부터미날 엔코아'
+jumin = '891014-1380947'
+
+성별, 나이, 생년월일, 등등
+
+account= '100831'
+파일처리 대표변수 = open('경로/xyz.txt', 'w/r')
+file.wirte('내용쓰기')
+file.readline()내용읽기
+file.close()
+
+f = open('경로/xyz.txt', 'w')
+f.wite('winter, fall')
+f.close()
+
+with open('경로/xyz.txt', 'r') as f
+f.wite('winter, fall')
+f.close()
+
+f = open('경로/xyz.txt', 'r')
+file_txt = f.readline
+print(file_txt)
+f.close()
+
+파이썬 함수
+def 함수이름(): #함수구현 = 함수기술
+    여러라인 내용기술
+
+함수이름() 함수호출
+
+이름 = input('이름입력')
+kor = int(input('국어입력'))
+eng = int(input('영어입력'))
+
+myData(name,kor,eng)
+
+# 모든 언어에서 합수 두가지 기억 리턴값 매개인자 !!!!!
+
+def serverConnect () :
+    처리처리~~~
+    ok = 처리
+    return ok
+
+def sale () :
+    CN = serverConnect()
+    if cn == :
+        연결 성공이니 게시판글등록 / 물건등록 등등 처리한다
+        다른 함수 호출
+    else :
+        print('서버연결실패입니다')
+
+def getName():
+    name = 고희동 # 지역변수 local variable
+    return name # 고희동 데이터를 대표자 getName() 돌려줌
+
+def getPi() :
+    pi = 3.1415
+    return Pi
+
+def display() :
+    dataName = getName()
+    # print('이름 = ', name ) # 에러
+    print('이름 = ', dataName ) # OK
+    print('이름 = ', getName() ) # OK
+    # print('파이 = ', pi) # 에러  
+    r = getPi()
+    print('파이 =', r) # OK
+    print("파이 =", getPi) # OK

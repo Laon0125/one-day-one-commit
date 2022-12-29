@@ -1,0 +1,27 @@
+함수 = 처리 = 기능
+
+def 함수명():
+    처리내용을 기술
+
+def book() :
+    title = '몽블랑' # local variable
+
+def note() :
+    print(title) #에러 
+    print(book) # O K A Y 
+    myName = book()
+    print('제목=', myName)
+
+
+
+104p
+
+ff = open('파일명',mode='w/r',encoding='')
+    저장write("데이터저장")
+    data=읽기read()
+    print(data)
+ff.close
+
+ff = open('파일명',mode='w/r',encoding='')
+file.close()
+    
